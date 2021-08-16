@@ -1,0 +1,22 @@
+# The materials that will be used by players to craft chunk loaders.
+# See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html for a list of valid materials.
+material:
+  # The block material that is used to represent a chunk loader, which must be placeable by a player.
+  block: LODESTONE
+  # The item material that will be "used" on the block to convert it to a chunk loader object.
+  item: NETHER_STAR
+
+# Indicates if chunk loaders should be impervious to explosions, otherwise use the base material's blast resistance.
+explosion-protect: true
+# Send a message to an online player when a chunk loader they have created has been destroyed by an explosion.
+alert-owner-on-explosion: true
+
+# The sound the chunk loader makes when created.
+sound:
+  # The name of the sound effect to play. Set to 'none' to disable the sound effect.
+  # See https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html for a list of valid values.
+  name: BLOCK_RESPAWN_ANCHOR_SET_SPAWN
+  # The volume of the sound effect, a value between 0.0 and 1.0, where 1.0 is normal.
+  volume: 1.0
+  # The pitch of the sound effect, a value between 0.0 and 2.0, where 1.0 is normal.
+  pitch: 2.0

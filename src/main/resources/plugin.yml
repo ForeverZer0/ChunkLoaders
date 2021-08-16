@@ -1,0 +1,19 @@
+name: ChunkLoaders
+version: ${project.version}
+main: com.foreverzer0.chunkloaders.ChunkLoadersPlugin
+api-version: 1.17
+authors: [ ForeverZer0 ]
+description: A lightweight and easy to use plugin for allowing players to create items that forcefully keep a chunk loaded, even when no player is nearby.
+website: https://github.com/ForeverZer0/ChunkLoaders
+commands:
+  chunkloaders:
+    permission: chunkloaders.list
+    usage: "Usage: /chunkloaders [NAME]"
+permissions:
+  chunkloaders.list:
+    description: Allows a user to view a list of chunk loaders they have created.
+    default: true
+  chunkloaders.list.others:
+    description: Allows a user to view a list of chunk loaders that others have created.
+    default: op
+
